@@ -1,0 +1,37 @@
+<html>
+	<head>
+		<title> Knockoff </title>
+		<link rel="stylesheet" href="application.css">
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+		<meta content="utf-8" http-equiv="encoding">
+		
+	</head>
+
+	<body>
+		<h1>Knockoff</h1>
+		<p>A Trillo copy to practice OOJS, and track our To Do's while we're at it</>
+		
+		<div id="new-card">
+			<input id="new-card-text" type="text" placeholder="What's the next action?" />
+			<button id="new-card-button">Add To List</button>
+		</div>
+
+		<div id="todo-column" class = "column">
+			<h2 class="column-heading">To Do</h2>
+			<ul class="card-list"></ul>
+		</div>
+
+		<div id="completed-column" class="column">
+			<h2 class="column-heading">Done</h2>
+			<ul class="card-list"></ul>
+		</div>
+
+		<script src="javascripts/models/card.js"></script>
+		<script src="javascripts/models/trillo.js"></script>
+		<script src="javascripts/views/card.js"></script>
+		<script src="javascripts/views/trillo.js"></script>
+		<script src="javascripts/app.js"></script>
+	</body>
+
+</html>
+
